@@ -1,0 +1,16 @@
+.cardContainer{
+    /* box-shadow: rgba(3, 15, 36, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+    background-image: url('https://media.istockphoto.com/photos/white-abstract-marble-texture-silver-grey-light-background-wave-swirl-picture-id1277592603?b=1&k=20&m=1277592603&s=170667a&w=0&h=4-uL8pdN5DRnmaKKGzCX8QQ4BTFvnTQUhsQWJuYHgBk=');
+}
+
+/* .image-revw{
+
+height: 150px;
+width: 150px;
+border-radius: 50%;
+} */
+.cs{
+display: flex;
+justify-content: center;
+align-items: center;
+}

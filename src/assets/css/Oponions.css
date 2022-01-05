@@ -1,0 +1,92 @@
+.oponions  {
+  background: rgb(54, 61, 68);
+  height: 700px;
+}
+
+.oponions  > div {
+  position: relative;
+  margin-top: 30px;
+}
+
+/* sizing */
+@media (max-width: 767px) {
+  .oponions > div {
+    margin-top: 20px;
+  }
+}
+
+/* review title */
+.review-title > span {
+  font-size: 1rem;
+  color: #fff9f7;
+  text-transform: capitalize;
+
+  margin-top: -0.6em;
+}
+/* review title */
+.review-title h2 {
+  margin: 0.3em 0 0;
+  font-weight: 600;
+  color: #444;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.review-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-title h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 5rem;
+  height: 3px;
+  
+  border-radius: 20px;
+  left: 50% !important;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+
+.oponions  .swiper-pagination .swiper-pagination-bullet-active {
+ 
+  height: 12px;
+  width: 12px;
+  margin-bottom: -1px;
+}
+
+.oponions .card {
+  background: #fdf8f8de;
+  box-shadow: 0 8px 30px -7px #c9dff0;
+ 
+}
+
+
+
+.oponions  .card h5 {
+  color: #0f0f0e;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.oponions  .card h5 span {
+  font-size: 8px;
+  color: #666666;
+}
+
+.oponions  .card p {
+  font-size: 18px;
+  color: rgb(102, 99, 99);
+ 
+}
+
+.oponions  .swiper-slide-next h5 {
+  font-size: 34px;
+}

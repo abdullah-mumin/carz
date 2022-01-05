@@ -1,0 +1,10 @@
+:root {
+    --main: #1a191993;
+    --second:#070403;
+    --third:rgb(5, 0, 0);
+    --white: #ffffff;
+  
+  }
+  .text-color-main{
+    color: var(--main);
+  }
